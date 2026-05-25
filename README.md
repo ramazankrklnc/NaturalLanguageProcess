@@ -1,6 +1,7 @@
 # NLP (Natural Language Processing) — Çalışma Notları
 
 Bu depo, **Doğal Dil İşleme (NLP)** konusunda öğrendiğim kavramları, formülleri ve Python uygulamalarını içeren **Jupyter Notebook çalışma notlarıdır**. Her notebook; teori (görsel/slayt notları) ile pratik kod örneklerini bir arada sunar.
+
 ---
 
 ## İçerik Haritası
