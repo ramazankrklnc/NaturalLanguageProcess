@@ -76,52 +76,13 @@ Transformer ekosistemi ve ileri uygulamalar:
 
 ---
 
-## Gereksinimler
-
-### Python paketleri
-
-```bash
-pip install jupyter pandas numpy scikit-learn nltk spacy gensim pywsd
-pip install tensorflow torch transformers huggingface_hub keras
-```
-
-### spaCy dil modeli
-
-```bash
-python -m spacy download en_core_web_sm
-```
-
-### NLTK veri paketleri
-
-Notebook'lar çalıştırılırken gerekli paketler indirilir (`nltk.download(...)`). Örnekler: `punkt`, `stopwords`, `wordnet`, `vader_lexicon`.
-
----
-
 ## Veri Setleri
-
-Bazı notebook'lar harici CSV dosyalarına referans verir. Çalıştırmadan önce ilgili dosyaların notebook ile **aynı klasörde** olması gerekir:
 
 | Dosya | Kullanıldığı notebook |
 |---|---|
 | `Spam Dataset.csv` | `BasicNLP.ipynb`, `TextRepresentation.ipynb` |
 | `IMDB Dataset.csv` | `TextRepresentation.ipynb` |
 | `amazon.csv` | `BasicNLP.ipynb` (duygu analizi) |
-
-> Bu veri setleri repoda bulunmayabilir. Kaggle veya resmi kaynaklardan indirip klasöre eklemeniz gerekir.
-
----
-
-## Kullanım
-
-1. Depoyu klonlayın veya indirin.
-2. Sanal ortam oluşturup bağımlılıkları kurun.
-3. Jupyter'ı başlatın:
-
-```bash
-jupyter notebook
-```
-
-4. Önerilen sırayla notebook'ları açıp hücreleri sırayla çalıştırın.
 
 ---
 
